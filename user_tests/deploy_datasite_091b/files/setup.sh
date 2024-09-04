@@ -120,7 +120,7 @@ if [[ -n "$DEFAULT_ROOT_PASSWORD" ]]; then
 fi
 
 # Add the Podman image with the registry
-PODMAN_RUN_CMD="$PODMAN_RUN_CMD docker.io/openmined/grid-backend:$VERSION"
+PODMAN_RUN_CMD="$PODMAN_RUN_CMD docker.io/openmined/syft-backend:$VERSION"
 
 # Debug output to verify Podman run command
 echo "PODMAN_RUN_CMD: $PODMAN_RUN_CMD"
